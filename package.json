@@ -1,0 +1,25 @@
+{
+  "name": "product-overview-loadbalancer",
+  "version": "1.0.0",
+  "description": "WIP Load Balancer for Product Overview Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdc-by-sdc/product-overview-loadBalancer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdc-by-sdc/product-overview-loadBalancer/issues"
+  },
+  "homepage": "https://github.com/sdc-by-sdc/product-overview-loadBalancer#readme",
+  "dependencies": {
+    "ajax-request": "^1.2.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
